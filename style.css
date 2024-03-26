@@ -12,5 +12,193 @@ html {
   display:flex;
   align-items:center;
 }
+.intro-section {
+    padding-bottom: 15px;
+}
+.intro-section {
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+body {
+    background: #fff;
+    font-family: Montserrat-Regular;
+    font-size: .875rem;
+    margin: 0;
+    color: #333;
+    line-height: 1.7142857143;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    max-width: 540px;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.intro-section .col-block {
+    padding-bottom: 10px;
+}
+.intro-section .intro-wrappeer {
+    box-shadow: 0 3px 6px rgba(0,0,0,.1607843137);
+    border-radius: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.intro {
+    color: #333;
+}
+.intro .card {
+    min-height: auto;
+    padding: 0;
+}
+@media (max-width: 767px)
+.intro .card {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.intro .card {
+    background: #fff;
+    padding: 15px 0;
+    position: relative;
+    padding-top: 0;
+}
+.intro .intro-heading {
+    display: inline-flex;
+}
+.intro h1 {
+    font-size: 1.375rem;
+}
+.intro h1 {
+    font-size: 1.5rem;
+    font-family: Montserrat-Regular;
+    text-transform: capitalize;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.intro .info-icon, .intro .info-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.intro-icon {
+    width: 24px;
+    height: 24px;
+}
+.rating-star, .slick-arrow, .sprite-icon {
+    background-image: url(../images/sprite-icon.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: inline-block;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.store-clock button {
+    background: 0 0;
+    text-transform: capitalize;
+    font-size: inherit;
+    padding: 0;
+    border: 0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+.store-clock>span {
+    display: none;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.store-clock button.open-now:before {
+    background-image: url(../images/sprite-icon.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    content: "";
+    font-weight: 700;
+    background-position: -72px -15px;
+    margin-right: 7px;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.store-clock button {
+    background: 0 0;
+    text-transform: capitalize;
+    font-size: inherit;
+    padding: 0;
+    border: 0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+
 
 
