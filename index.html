@@ -17,6 +17,9 @@
           padding: 10px;
           text-decoration: none;
           color: black;
+          margin-left: 20px;
+          margin-right: 20px;
+         
       }
       .navbar a:hover {
           background-color: #ddd;
@@ -27,17 +30,20 @@
           font-weight: bold;
       }
     .logo {
-        height: 50px;
+        height: 30px;
         margin-top: 10px;
+        margin-left: 150px;
+        
     }
+   
   </style>
 
 </head>
 
 <body>
-   <img class="logo" src="https://cdn4.singleinterface.com/files/outlet/logo/62474/honda_final_logo_png_png.png" alt="Classic Motors Logo">
-  
+
   <div class="navbar">
+    <img class="logo" src="https://cdn4.singleinterface.com/files/outlet/logo/62474/honda_final_logo_png_png.png" alt="Classic Motors Logo">
       <a href="#">Home</a>
       <a class="highlight" href="#">Car ✓</a>
       <a href="#">Car Comparison ✓</a>
@@ -47,6 +53,7 @@
       <a href="#">Service</a>
       <a href="#">Contact Us</a>
   </div>
+
   
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -203,214 +210,29 @@
       </div>
     </div>
   </div>
-  <main>
-    <div class="intro-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-block">
-            <div class="intro-wrappeer">
-              <input type="hidden" id="prv"
-                value="https://dealer.hondacarindia.com/VendorpageTheme/Enterprise/EThemeForHondaCarsNew/images/prevew.png">
-              <input type="hidden" id="nx"
-                value="https://dealer.hondacarindia.com/VendorpageTheme/Enterprise/EThemeForHondaCarsNew/images/next.png">
-              <div style="display: none;">
-                <span>28.454887</span>
-                <span>77.308985</span>
-              </div>
-              <div class="intro">
-                <div class="card">
-                  <div class="intro-heading">
-                    <h1 class="card-header heading" id="speakableIntro" title="Honda Cars India"> Classic Honda </h1>
-                  </div>
-                  <div class="cm-info-card info-card-timing">
-                    <span class="info-icon">
-                      <span class="sprite-icon intro-icon icn-time"></span> </span>
-                    <ul class="info-text list-unstyled">
-                      <li class="store-clock clock-top-mng">
-                        <span>Open Now</span>
-                        <button class="open-now">
-                          Open Now</button>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="category-services">
-                    <div class="intro-services all">
-                      <span class="sprite-icon icon-service">
-                      </span> <span> Sales </span>
-                    </div>
-                    <div class="intro-services all">
-                      <span class="sprite-icon icon-service"></span>
-                      <span> Service </span>
-                    </div>
-                    <div class="intro-services all">
-                      <span class="sprite-icon icon-service"></span>
-                      <span> Spares </span>
-                    </div>
-                  </div>
-                  <div class="intro-rating info-card">
-                    <div class="card rating-card ">
-                      <div class="card-header">
-                        <h3 class="sub-heading">
-                          <span class="sprite-icon service-icon icn-rating"></span>
-                          <span class="title">Store Ratings</span>
-                        </h3>
-                      </div>
-                      <div class="card-body">
-                        <ul class="list-unstyled rating">
-                          <li>
-                            <span class="rating-star rating_full"></span>
-                          </li>
-                          <li>
-                            <span class="rating-star rating_full"></span>
-                          </li>
-                          <li>
-                            <span class="rating-star rating_full"></span>
-                          </li>
-                          <li>
-                            <span class="rating-star rating_half"></span>
-                          </li>
-                          <li>
-                            <span class="rating-star rating_empty"></span></li>
-                          <li>
-                            <span class="rating_text">3.8</span></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="review-action"> <a class="btn"
-                        href="https://search.google.com/local/reviews?placeid=ChIJO_vugl7nDDkRC_IJfFmlbso"
-                        target="_blank" title="View all reviews on our Google Plus page"
-                        onclick="clickEventGa('home_page', 'view_all_review', '67136')">Read Reviews</a>
-                    </div>
-                  </div>
-                  <div class="card-body" id="speakableIntroContent">
-                    <ul class="list-unstyled info-group">
-                      <li class="info-card info-business">
-                        <span class="info-icon">
-                          <span class="sprite-icon intro-icon icn-business">
-                          </span>
-                        </span>
-                        <div class="info-text">
-                          <span> Sterling Automobiles pvt ltd</span>
-                        </div>
-                      </li>
-                      <li class="info-card info-address">
-                        <span class="info-icon">
-                          <span class="sprite-icon intro-icon icn-address"></span>
-                        </span>
-                        <div class="info-text">
-                          <span>No 14/1</span><br>
-                          <span><span>Main Mathura Road</span></span><br>
-                          <span class="merge-in-next"><span>Gurugram</span><span> - </span>
-                            <span>121003</span>
-                          </span>
-                        </div>
-                        <div class="info-card call-direction"> <a
-                            href="https://maps.google.com/maps?cid=14586778046851314187" target="_blank"
-                            class="action-direction action-icon"
-                            onclick="clickEventGa('home_page', 'directions', '67136')">
-                            <span class="sprite-icon cta-direction"></span> <span>Get Directions</span>
-                          </a>
-                        </div>
-                      </li>
-                      <li class="info-card email">
-                        <span class="info-icon">
-                          <span class="sprite-icon intro-icon icn-envelope"></span>
-                        </span>
-                        <div class="info-text">
-                          <a href="mailto:sabiha@classichonda.co.in"
-                            onclick="clickEventGa('home_page', 'click_to_email', '67136')"> sabiha@classichonda.co.in
-                          </a>
-                        </div>
-                      </li>
-                      <li class="info-card call-us">
-                        <span class="info-icon">
-                          <span class="sprite-icon intro-icon icn-phone"></span>
-                        </span>
-                        <div class="info-text">
-                          <a href="tel:+918657588471" onclick="clickEventGa('home_page', 'click_to_call', '67136')">
-                            +918657588471 </a>
-                        </div>
-                        <div class="info-card call-direction">
-                          <a href="tel:+918657588471" class="action-call action-icon"
-                            onclick="clickEventGa('home_page', 'click_to_call', '67136')">
-                            <span class="sprite-icon cta-phone"></span> <span>Call</span> </a>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="floating-btn" title="Click For Links"></div>
-              <div class="sticky-call-to-action">
-                <div class="sticky-call-to-action-wrapper">
-                  <div class="infolinks">
-                    <div class="info-card call-direction">
-                      <a href="tel:+918657588471" class="action-call action-icon"
-                        onclick="clickEventGa('home_page', 'click_to_call', '67136')">
-                        <span class="sprite-icon cta-phone"></span> <span>Call</span> </a>
-                    </div>
-                    <a href="https://maps.google.com/maps?cid=14586778046851314187" target="_blank"
-                      class="action-direction action-icon" onclick="clickEventGa('home_page', 'directions', '67136')">
-                      <span class="sprite-icon cta-direction"></span>
-                      <span>Directions </span> </a>
-                    <a class="buy-now" target="_blank"
-                      href="https://www.hondacarindia.com/honda-from-home?int_source=auto_dealer&amp;int_medium=book_now&amp;store_id=DD068"
-                      onclick="clickEventGa('home_page', 'buy_online_url', '67136')" rel="noopener"
-                      data-track-event-click="Book/Buy Now">
-                      <span class="buy-now-icon"></span><span>Book Now</span> </a>
-                  </div>
-                  <span class="close"></span>
-                </div>
-              </div>
-              <div class="card payment-method about-card">
-                <div class="card-header">
-                  <h3 class="sub-heading" id="speakablePaymentMethod">
-                    <span class="sprite-icon service-icon icn-payment"></span>
-                    <span class="title">Payment Options</span>
-                  </h3>
-                </div>
-                <div class="card-body" id="speakablePaymentMethodContent">
-                  <ul class="list-unstyled service-list">
-                    <li> <span class="list-icon sprite-icon cash"></span>
-                      <span class="list-text">Cash</span>
-                    </li>
-                    <li> <span class="list-icon sprite-icon cheque"></span>
-                      <span class="list-text">Cheque</span>
-                    </li>
-                    <li> <span class="list-icon sprite-icon debit card"></span>
-                      <span class="list-text">Debit Card</span>
-                    </li>
-                    <li> <span class="list-icon sprite-icon master card"></span>
-                      <span class="list-text">Master Card</span>
-                    </li>
-                    <li> <span class="list-icon sprite-icon visa"></span>
-                      <span class="list-text">Visa</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card parking-option about-card">
-                <div class="card-header">
-                  <h3 class="sub-heading" id="speakableParkingOptions">
-                    <span class="sprite-icon service-icon icn-parking">
-                    </span>
-                    <span class="title">Premises</span>
-                  </h3>
-                </div>
-                <div class="card-body" id="speakableParkingOptionsContent">
-                  <ul class="list-unstyled service-list">
-                    <li> <span class="list-icon"></span>
-                      <span class="list-text">Free parking on site</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
 
-
-  </main>
-
+  <div class="container">
+    <h1>Classic Honda</h1>
+    <h2>Sterling Automobiles pvt ltd</h2>
+    <p>No 14/1, Main Mathura Road, Faridabad - 121003</p>
+    <p><a href="mailto:sabiha@classichonda.co.in">sabiha@classichonda.co.in</a></p>
+    <p>Phone: <a href="tel:+918657588471">+918657588471</a></p>
+    <p>Payment Options: Cash, Cheque, Debit Card, Master Card, Visa</p>
+    <p class="highlight">Free parking on site</p>
+    <a href="https://www.google.com/maps/place/Classic+Honda/@28.4052247,77.3143428,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce86460469b7f:0x1339059018959024!8m2!3d28.4052247!4d77.3165315" target="_blank">GET DIRECTIONS</a>
+    <div class="review-section">
+      <h3>Reviews</h3>
+      <div class="review-rating">
+        <span class="review-star" id="star1" data-value="1">★</span>
+        <span class="review-star" id="star2" data-value="2">★</span>
+        <span class="review-star" id="star3" data-value="3">★</span>
+        <span class="review-star" id="star4" data-value="4">★</span>
+        <span class="review-star" id="star5" data-value="5">★</span>
+      </div>
+      <textarea class="review-text" id="review-text" rows="4" cols="50" placeholder="Leave your review here..."></textarea>
+    </div>
+  </div>
+     
 
 
   <script src="script.js"></script>
